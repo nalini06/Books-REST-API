@@ -35,29 +35,34 @@ npm server.js (to start the server at port 3000)
 
 Get All Books 
 ```
-http://localhost:3000/api/v1/books/
+local: http://localhost:3000/api/v1/books/
+deployed: https://books-api-t42v.onrender.com/api/v1/books/
 
 ```
 Get book by ID:
 ```
-http://localhost:3000/api/v1/books/650aab02dbba54e77d38cd77
+local: http://localhost:3000/api/v1/books/650aab02dbba54e77d38cd77
+deployed: deployed: https://books-api-t42v.onrender.com/api/v1/books/:id
 ```
 
 Create Book (POST)
 ```
 http://localhost:3000/api/v1/books/
+deployed: deployed: https://books-api-t42v.onrender.com/api/v1/books/
 ```
 
 Update Book by ID (PATCH)
 ```
-http://localhost:3000/api/v1/books/650aab02dbba54e77d38cd77
+local: http://localhost:3000/api/v1/books/650aab02dbba54e77d38cd77
+deployed: deployed: https://books-api-t42v.onrender.com/api/v1/books/:id
 
 ```
 
 Delete Book By ID (Delete)
 
 ```
-http://localhost:3000/api/v1/books/650aab02dbba54e77d38cd77
+local: http://localhost:3000/api/v1/books/650aab02dbba54e77d38cd77
+deployed: deployed: https://books-api-t42v.onrender.com/api/v1/books/:id
 
 ```
 
