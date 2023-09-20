@@ -61,6 +61,15 @@ http://localhost:3000/api/v1/books/650aab02dbba54e77d38cd77
 
 ```
 
+Example Body
+```
+{
+ "name" : "Sherlock Holmes",
+  "description: "Detective book"
+}
+
+```
+
 
 
 
